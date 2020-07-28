@@ -1,0 +1,142 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    width: 1340px;
+    height: 1500px;
+}
+.menu{
+    width: 1340px;
+    height: 200px;
+    background: #DBE6F6;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #c76d31, #503a26e3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   display: inline-block;
+}
+.titulo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 80;
+    font-style: italic;
+    font-family: 'Katibeh', cursive;
+    margin-left: 20px;
+   text-align: center;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+.menu-izquierdo{
+    margin-right: 20px;
+    
+}
+.contenido{
+        display: flex;/*para el texto se junte*/
+        justify-content: space-between;/*para que los elemnetos se alinien  uno en cada en esquina esquinas */
+        align-items: center;/*para que los elementos esten centrados*/
+       /* flex-wrap: wrap;/*por si un elemento no entra , se desplace hacia abajo**/
+        padding-top: 20px;
+}
+.social-media{
+    margin-left: 10px;
+    width: 50%;
+    display: flex;/*los iconos se van repartir en espacios equitativos*/
+    
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.social-media-icon{/*para que el icono este dentro de un circulo*/
+    display: inline-block;
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.social-media-icon:hover{/*para cuando pase el maus por el icono sale la mano*/
+    background: #fff;
+    color: #faea08;
+}
+.social-media-icon i{
+    font-size: 150%;
+    line-height: 60px;
+}
+table{
+	width: 100%;
+border-spacing: 5px;
+font-weight: bold;/*font weigth especifica el grosor de la letra*/
+font-family: "Trebuchet MS", Verdana, "sans-serif";
+text-align: center;/* para la alineacion del texto*/
+}
+h1{
+text-align: center ;
+color: brown;
+font-size: 36px;/* especifica la dimencion de la letra*/
+}
+
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+table, th, td{ 
+border: 1.5px solid #FFF;
+border-radius:  6px;/*para que el borde de los celdas y la tabla sea curveda*/
+border-collapse: collapse;/*para que los bordes colapsen en uno solo*/
+}
+ th,td{
+padding: 15px;/* dimencion de las celdas */
+}
+.table1 thead th{
+background-color:  Crimson;
+	color: white;
+	text-align: center;
+}
+.table1 tbody th{
+	background-color: Crimson;
+	color: white;
+	text-align: center;
+}
+
+.table1 tbody tr{
+	background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.video1{
+    border: 3px solid #f2f2f2;
+    width: 200px;
+    align-items: center;
+    height: 100PX;
+   }
+   
+   .contenedor{
+       
+        display: flex;/*para el texto se junte*/
+        justify-content: space-between;/*para que los elemnetos se alinien  uno en cada en esquina esquinas */
+        align-items: center;/*para que los elementos esten centrados*/
+       /* flex-wrap: wrap;/*por si un elemento no entra , se desplace hacia abajo**/
+        padding-top: 20px;
+        
+}
+   
+   .contenedor-servicio video1{
+       width: 40%;
+       box-shadow: 0 0 6px rgba(0, 0, 0, .9);
+   }
+   .video1 .service{
+    justify-content: space-between;
+   }
+.service{
+    margin-bottom: 20px;
+    position: absolute;
+}
+.n-nosotros {
+    margin-bottom: 7px;
+    color: #800000;
+    margin-left: 500px;
+}
